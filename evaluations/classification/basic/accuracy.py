@@ -7,6 +7,7 @@ __all__ = [
 
 def accuracy(y_true: List, y_pred: List) -> float:
     """
+    Calculate accuracy score
 
     Parameters
     ----------
@@ -19,6 +20,11 @@ def accuracy(y_true: List, y_pred: List) -> float:
     -------
     float
         Accuracy score
+
+    Examples
+    --------
+    >>> evaluations.classification.basic.accuracy([1, 1, 0, 0], [1, 1, 1, 0])
+    0.75
     """
     count_true = sum([i == j for i, j in zip(y_true, y_pred)])
 
