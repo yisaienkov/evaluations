@@ -10,4 +10,4 @@ def test_half_true():
 
 
 def test_no_true():
-    assert accuracy([1, 1, 0, 1], [0, 0, 1, 1]) == 0.
+    assert accuracy([1, 1, 0, 0], [0, 0, 1, 1]) == 0.
