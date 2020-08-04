@@ -1,6 +1,5 @@
 """This is module for compute the accuracy score"""
 
-
 from typing import List
 
 __all__ = [
