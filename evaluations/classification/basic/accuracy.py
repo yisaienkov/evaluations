@@ -1,3 +1,5 @@
+"""This is module for compute the accuracy score"""
+
 from typing import List
 
 __all__ = [
@@ -7,7 +9,7 @@ __all__ = [
 
 def accuracy(y_true: List, y_pred: List) -> float:
     """
-    Calculate accuracy score
+    Compute accuracy score
 
     Parameters
     ----------
@@ -23,7 +25,8 @@ def accuracy(y_true: List, y_pred: List) -> float:
 
     Examples
     --------
-    >>> evaluations.classification.basic.accuracy([1, 1, 0, 0], [1, 1, 1, 0])
+    >>> from evaluations.classification.basic import accuracy
+    >>> accuracy([1, 1, 0, 0], [1, 1, 1, 0])
     0.75
     """
     count_true = sum([i == j for i, j in zip(y_true, y_pred)])
