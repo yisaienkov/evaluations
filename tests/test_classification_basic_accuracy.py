@@ -3,21 +3,21 @@
 from evaluations.classification.basic import accuracy
 
 
-def test_accuracy_all_true():
+def test_all_true():
     """
     All predictions true
     """
     assert accuracy([1, 1, 0, 0], [1, 1, 0, 0]) == 1.
 
 
-def test_accuracy_half_true():
+def test_half_true():
     """
     50% predictions true
     """
     assert accuracy([1, 1, 0, 0], [1, 0, 1, 0]) == .5
 
 
-def test_accuracy_no_true():
+def test_no_true():
     """
     No true predictions
     """
