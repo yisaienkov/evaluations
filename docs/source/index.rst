@@ -2,7 +2,7 @@ Welcome to Evaluations documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Modules:
 
    classification
