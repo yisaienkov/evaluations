@@ -2,6 +2,6 @@ Basic
 =====
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    classification.basic.accuracy

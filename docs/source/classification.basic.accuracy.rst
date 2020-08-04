@@ -1,6 +1,7 @@
 Accuracy
 ========
 
-.. automodule:: evaluations.classification.basic.accuracy
-   :members:
-   :undoc-members:
+Accuracy Score
+--------------
+
+.. autofunction:: evaluations.classification.basic.accuracy.accuracy

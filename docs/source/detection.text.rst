@@ -2,6 +2,6 @@ Text
 ====
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    detection.text.jaccard_word_level

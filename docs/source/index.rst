@@ -3,7 +3,7 @@ Welcome to Evaluations documentation!
 
 .. toctree::
    :maxdepth: 3
-   :caption: Modules:
+   :caption: Table of contents:
 
    classification
    detection
