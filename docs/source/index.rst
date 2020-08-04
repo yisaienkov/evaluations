@@ -6,3 +6,4 @@ Welcome to Evaluations documentation!
    :caption: Modules:
 
    classification
+   detection
