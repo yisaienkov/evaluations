@@ -4,4 +4,4 @@ Accuracy
 Accuracy Score
 --------------
 
-.. autofunction:: evaluations.classification.basic.accuracy.accuracy
+.. autofunction:: evaluations.classification.basic.accuracy.accuracy_score
