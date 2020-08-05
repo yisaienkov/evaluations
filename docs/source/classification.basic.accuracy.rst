@@ -7,4 +7,4 @@ Accuracy Score
 
     Accuracy\ Score = \frac{The\ number\ of\ samples\ predicted\ correctly}{Total\ number\ of\ samples}
 
-.. autofunction:: evaluations.classification.basic.accuracy.accuracy_score
+.. autofunction:: evaluations.classification.accuracy.accuracy_score

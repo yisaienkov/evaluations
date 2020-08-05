@@ -2,6 +2,7 @@ Classification
 ==============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   classification.basic
+   classification.basic.accuracy
+   classification.basic.confusion_matrix
