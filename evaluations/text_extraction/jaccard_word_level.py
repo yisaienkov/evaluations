@@ -26,7 +26,7 @@ def jaccard_word_level_score(y_true: List[str], y_pred: List[str]) -> float:
 
     Examples
     --------
-    >>> from evaluations.detection.text import jaccard_word_level_score
+    >>> from evaluations.text_extraction import jaccard_word_level_score
     >>> jaccard_word_level_score(
     ...         [
     ...             "Hello, how are you?",
@@ -65,7 +65,7 @@ def jaccard_word_level_similarity(y_true: str, y_pred: str) -> float:
 
     Examples
     --------
-    >>> from evaluations.detection.text import jaccard_word_level_similarity
+    >>> from evaluations.text_extraction import jaccard_word_level_similarity
     >>> assert jaccard_word_level_similarity(
     ...         "Be happy my friend",
     ...         "be happy"

@@ -28,7 +28,7 @@ def confusion_matrix_binary(
 
     Examples
     --------
-    >>> from evaluations.classification.basic import confusion_matrix_binary
+    >>> from evaluations.classification import confusion_matrix_binary
     >>> confusion_matrix_binary([1, 1, 0, 0], [1, 0, 0, 1])
     {'tp': 1, 'tn': 1, 'fp': 1, 'fn': 1}
     """

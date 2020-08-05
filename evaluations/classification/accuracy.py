@@ -25,7 +25,7 @@ def accuracy_score(y_true: List, y_pred: List) -> float:
 
     Examples
     --------
-    >>> from evaluations.classification.basic import accuracy_score
+    >>> from evaluations.classification import accuracy_score
     >>> accuracy_score([1, 1, 0, 0], [1, 1, 1, 0])
     0.75
     """
