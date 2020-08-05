@@ -1,6 +1,6 @@
 """Tests for accuracy_score function"""
 
-from evaluations.classification.basic import accuracy_score
+from evaluations.classification import accuracy_score
 
 
 def test_all_true():

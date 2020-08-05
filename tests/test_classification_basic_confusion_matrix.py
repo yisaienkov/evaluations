@@ -1,6 +1,6 @@
 """Tests for confusion_matrix_binary function"""
 
-from evaluations.classification.basic import confusion_matrix_binary
+from evaluations.classification import confusion_matrix_binary
 
 
 def test_all_tp():

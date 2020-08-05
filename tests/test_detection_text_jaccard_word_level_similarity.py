@@ -1,6 +1,6 @@
 """Tests for jaccard_word_level_similarity function"""
 
-from evaluations.detection.text import jaccard_word_level_similarity
+from evaluations.text_extraction import jaccard_word_level_similarity
 
 
 def test_all_true():

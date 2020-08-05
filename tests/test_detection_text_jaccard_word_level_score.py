@@ -1,6 +1,6 @@
 """Tests for jaccard_word_level_score function"""
 
-from evaluations.detection.text import jaccard_word_level_score
+from evaluations.text_extraction import jaccard_word_level_score
 
 
 def test_1():
