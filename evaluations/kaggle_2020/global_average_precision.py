@@ -26,6 +26,7 @@ def global_average_precision_score(
 
     Examples
     --------
+    >>> from evaluations.kaggle_2020 import global_average_precision_score
     >>> y_true = {
     ...         'id_001': 123,
     ...         'id_002': None,
