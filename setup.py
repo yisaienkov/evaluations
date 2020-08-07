@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="evaluations",
-    version="0.0.2",
+    version="0.0.3",
     author="Yaroslav Isaienkov",
     author_email="oiuygl@gmail.com",
     description="The library for models evaluation",
