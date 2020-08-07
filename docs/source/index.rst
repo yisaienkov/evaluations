@@ -6,5 +6,6 @@ Welcome to Evaluations documentation!
    :maxdepth: 2
    :caption: Modules
 
+   kaggle_2020
    classification
    text_extraction
