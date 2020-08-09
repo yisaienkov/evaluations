@@ -15,7 +15,7 @@ def row_wise_micro_averaged_f1_score(
     ----------
     y_true : List[str]
         Target list of strings of a space separated birds names
-    y_pred
+    y_pred : List[str]
         Predicted list of strings of a space separated birds names
 
     Returns
@@ -55,9 +55,9 @@ def micro_f1_similarity(
 
     Parameters
     ----------
-    y_true : List[str]
+    y_true : str
         True string of a space separated birds names
-    y_pred
+    y_pred : str
         Predicted string of a space separated birds names
 
     Returns
