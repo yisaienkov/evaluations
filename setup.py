@@ -41,7 +41,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[],
-    setup_requires=["pytest-runner"],
-    tests_require=["pytest"],
-    test_suite="tests",
+    extras_require={"tests": ["pytest"]},
 )
