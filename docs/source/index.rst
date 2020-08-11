@@ -13,6 +13,7 @@ GitHub repository: https://github.com/yisaienkov/evaluations
    :maxdepth: 2
    :caption: Modules
 
+   medical
    kaggle_2020
    classification
    text_extraction

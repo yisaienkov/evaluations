@@ -6,4 +6,5 @@ __all__ = [
     'classification',
     'text_extraction',
     'kaggle_2020',
+    'medical',
 ]
