@@ -37,7 +37,7 @@ def concordance_index(
     ----------
     events : List[int]
         If the some event happened - 1 or not happened - 0
-    risks
+    risks : List[int]
         Risks scores for each event
 
     Returns
