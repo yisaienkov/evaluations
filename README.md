@@ -1,7 +1,9 @@
 # Evaluations
 [![PyPI version](https://badge.fury.io/py/evaluations.svg)](https://badge.fury.io/py/evaluations)
+[![Documentation Status](https://readthedocs.org/projects/evaluations/badge/?version=latest)](https://evaluations.readthedocs.io/en/latest/?badge=latest)
 
 * The library implements various metrics for evaluating machine learning algorithms
+* Includes some of the [Kaggle Competitions](https://www.kaggle.com/competitions) metrics.
 
 
 ## Table of contents
